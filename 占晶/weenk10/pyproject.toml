@@ -1,0 +1,11 @@
+[project]
+name = "week10-rag-qa"
+version = "0.1.0"
+description = "Python RAG QA command line app"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.72.0",
+    "python-dotenv>=1.2.2",
+    "sentence-transformers>=5.4.0",
+]
